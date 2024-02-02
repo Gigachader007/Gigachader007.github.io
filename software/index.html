@@ -1,0 +1,47 @@
+<html>
+
+<head>
+    <title>Программы</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../resources/cool.css" type="text/css">
+    <script type="text/javascript" src="../resources/main.js"></script>
+</head>
+
+<body>
+    <H1 ALIGN="center">
+        <FONT COLOR="#FFFFFF">
+            Программное обеспечение
+        </FONT>
+    </H1>
+    <hr>
+    <P AliGN="center">
+        <button type="home" id="home" onclick="onClick('../index.html');">Всё о компьютере</button>
+        <button type="hardware" id="hardware" onclick="onClick('../hardware/index.html');">Комплектующие</button>
+        <button type="glossary" id="glossary" onclick="onClick('../glossary/index.html')">Словарь</button>
+        <button type="software" id="software" onclick="onClick('../software/index.html');">Программы</button>
+    </P>
+    <hr>
+    <script language="JavaScript">
+        var a = Math.round(Math.random()*4)+1
+        document.write("<img src=" + a + ".png width=200 height=200>")
+    </script>
+    <OL>
+        <LI> Системные программы
+        <LI> Прикладные программы
+            <UL TYPE="square">
+                <LI> текстовые редакторы;
+                <LI> графические редакторы;
+                <LI> электронные таблицы;
+                <LI> системы управления базами данных.
+            </UL>
+        <LI> Системы программирования
+    </OL>
+
+    <hr>
+    <ADDRESS>
+            &#169; Москва 2024 школа №1501 Иванов Иван
+            Е-mail: <A HREF="mailto:ivanov.ivan@example.com">*клик*</A>
+    </ADDRESS>
+</body>
+
+</html>

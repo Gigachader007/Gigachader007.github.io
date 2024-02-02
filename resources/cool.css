@@ -1,0 +1,38 @@
+hr{
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid darkgreen;
+    margin: 1em 0;
+    padding: 7;
+}
+
+
+p {
+    font: "arial black";
+    color: white;
+}
+
+address{
+    color: white;
+}
+
+body{
+    background-color:aliceblue;
+    background: linear-gradient(43deg, rgb(65, 88, 208) 0%, rgb(200, 80, 192) 46%, rgb(255, 204, 112) 100%); 
+}
+
+table {
+    width: 450px;
+}
+
+button {
+    background-color: #04AA6D; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 14px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
